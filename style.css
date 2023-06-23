@@ -1,0 +1,64 @@
+/* Set basic styles for the body */
+body {
+    background-color: #121212;
+    font-family: Arial, sans-serif;
+    margin: 200px;
+  }
+  
+  /* Style the heading */
+  h1 {
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Style the select menus */
+  select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 8px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /* Style the input fields */
+  input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /* Style the equals sign */
+  .converter-equals p {
+    display: block;
+    margin: 16px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  /* Give the container some padding */
+  .converter-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #64686e;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+  }
+  
+  .unit-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
